@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "python ensure_python_developer_agent.py",
+        "cwd": ".github/hooks",
+        "timeout": 10
+      }
+    ],
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "python ensure_python_developer_agent.py",
+        "cwd": ".github/hooks",
+        "timeout": 10
+      }
+    ]
+  }
+}
