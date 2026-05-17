@@ -9,28 +9,27 @@ Hook-based automation
 Organized skill and instruction system
 
 AI_AGENT/
-│
-├── agents/
-│   ├── python_developer.agent.md
-│   └── python_tester.agent.md
-│
-├── hooks/
-│   ├── ensure_python_developer_agent.py
-│   └── python_developer_agent.json
-│
-├── skills/
-│   └── python-developer/
-│       └── SKILL.md
-│
-├── merge_sort.py
-├── test_merge_sort.py
-├── README.md
-├── .gitignore
-│
-├── .github/
-├── .venv/
-├── __pycache__/
-└── .pytest_cache/
+agents/
+│python_developer.agent.md
+│python_tester.agent.md
+
+hooks/
+│ensure_python_developer_agent.py
+│python_developer_agent.json
+
+skills/
+│python-developer/
+│SKILL.md
+
+├merge_sort.py
+├test_merge_sort.py
+├README.md
+├.gitignore
+
+├.github/
+├.venv/
+├__pycache__/
+└.pytest_cache/
 
 How It Works
 
